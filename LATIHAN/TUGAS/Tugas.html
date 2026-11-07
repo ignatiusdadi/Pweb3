@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Biodata Diri</title>
+    
+    <!-- CSS Internal untuk mempercantik tampilan -->
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        hr {
+            border: 0;
+            height: 3px;
+            background-color: #3498db;
+            width: 150px;
+            margin: 10px auto 30px auto;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 750px;
+            width: 100%;
+        }
+
+        .section-title {
+            font-size: 18px;
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+        }
+
+        table, th, td {
+            border: 1px solid #e2e8f0;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .foto-profil {
+            border-radius: 8px;
+            object-fit: cover;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            background-color: #f8fafc;
+            padding: 15px 15px 15px 35px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+        <h1>BIODATA DIRI</h1>
+    </center>
+    <hr>
+
+    <main>
+        <div class="container">
+            
+            <article>
+                <div class="section-title"><b>INFORMASI</b></div>
+                
+                <table>
+                    <caption><strong>DATA PRIBADI</strong></caption>
+                    <tr>
+                        <td rowspan="8" align="center" style="width: 160px;">
+                            <img src="foto.png" alt="Foto Profil" width="130" class="foto-profil">
+                        </td>
+                        <td style="width: 170px;"><b>Nama Lengkap</b></td>
+                        <td style="width: 15px;">:</td>
+                        <td>Ignatius Dadi Ahadiyat</td>
+                    </tr>
+                    <tr>
+                        <td><b>NIM</b></td>
+                        <td>:</td>
+                        <td>20250910002</td>
+                    </tr>
+                    <tr>
+                        <td><b>Program Studi</b></td>
+                        <td>:</td>
+                        <td>Sistem Informasi</td>
+                    </tr>
+                    <tr>
+                        <td><b>Tempat, Tanggal Lahir</b></td>
+                        <td>:</td>
+                        <td>Kuningan, 05 November 2006</td>
+                    </tr>
+                    <tr>
+                        <td><b>Jenis Kelamin</b></td>
+                        <td>:</td>
+                        <td>Laki-laki</td>
+                    </tr>
+                    <tr>
+                        <td><b>Alamat</b></td>
+                        <td>:</td>
+                        <td>Kabupaten Kuningan, Jawa Barat</td>
+                    </tr>
+                    <tr>
+                        <td><b>E-mail</b></td>
+                        <td>:</td>
+                        <td>20250910002@uniku.ac.id</td>
+                    </tr>
+                    <tr>
+                        <td><b>No. HP</b></td>
+                        <td>:</td>
+                        <td>083827810671</td>
+                    </tr>
+                </table>
+
+                <br>
+                
+                <div class="section-title"><b>RIWAYAT PENDIDIKAN</b></div>
+                <ul>
+                    <li><b>SD</b> : SD Yos Sudarso Cigugur</li>
+                    <li><b>SMP</b> : SMP Yos Sudarso Cigugur</li>
+                    <li><b>SMA/SMK</b> : SMKN 2 Kuningan</li>
+                    <li><b>Perguruan Tinggi</b> : Universitas Kuningan (Sekarang)</li>
+                </ul>
+            </article>
+
+        </div>
+    </main>
+
+</body>
+</html>
